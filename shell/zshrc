@@ -16,6 +16,11 @@ alias gp="git p"
 alias gpl="git pl"
 alias gplo="git pl origin"
 
+# Node.js shortcuts
+alias n="nvm"
+alias p="pnpm"
+alias dev="pnpm dev"
+
 # Utils
 alias reload="source ~/.zshrc"
 alias c="clear"
