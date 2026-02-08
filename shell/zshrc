@@ -1,0 +1,23 @@
+export DOTFILES="$HOME/dotfiles"
+
+# Plugins
+plugins=(git nvm node zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete)
+
+# Git shortcuts
+alias gs="git s"
+alias gl="git l"
+alias gll="git ll"
+alias gc="git c"
+alias gcm="git cm"
+alias gpf="git pf"
+alias gch="git co"
+alias gb="git b"
+alias gp="git p"
+alias gpl="git pl"
+
+# Utils
+alias reload="source ~/.zshrc"
+alias c="clear"
+
+# Path tambahan
+export PATH="$HOME/.local/bin:$DOTFILES/bin:$PATH"

@@ -1,0 +1,67 @@
+[user]
+    name = Warsono
+    email = warsono16694@gmail.com
+
+[core]
+    editor = code --wait
+    excludesfile = ~/.gitignore_global
+    pager = less -FRSX
+
+[color]
+    ui = auto
+
+[push]
+    default = current
+
+[pull]
+    rebase = true
+
+[rebase]
+    autoStash = true
+
+[fetch]
+    prune = true
+
+[alias]
+    # status & log
+    s = status -sb
+    l = log --oneline --graph --decorate
+    ll = log --graph --pretty=format:'%C(yellow)%h%Creset %C(cyan)%ad%Creset %Cgreen(%an)%Creset %s' --date=short
+
+    # commit
+    c = commit
+    cm = commit -m
+    ca = commit --amend
+    can = commit --amend --no-edit
+
+    # branch
+    b = branch
+    ba = branch -a
+    bd = branch -d
+    bD = branch -D
+
+    # checkout / switch
+    co = checkout
+    sw = switch
+    swc = switch -c
+
+    # stash
+    st = stash
+    sta = stash apply
+    stp = stash pop
+
+    # reset & undo
+    unstage = reset HEAD --
+    undo = reset --soft HEAD~1
+
+    # pull / push
+    pl = pull
+    p = push
+    pf = push --force-with-lease
+
+    # clean
+    clean-all = !git reset --hard && git clean -fd
+
+    # pretty diff
+    d = diff
+    ds = diff --staged
