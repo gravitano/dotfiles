@@ -1,4 +1,4 @@
-export DOTFILES="$HOME/dotfiles"
+export DOTFILES="$HOME/Code/Warsono/dotfiles"
 
 # Plugins
 plugins=(git nvm node zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete)

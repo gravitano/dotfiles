@@ -24,7 +24,8 @@
 
 [alias]
     # status & log
-    s = status -sb
+    s = status
+    sb = status -sb
     l = log --oneline --graph --decorate
     ll = log --graph --pretty=format:'%C(yellow)%h%Creset %C(cyan)%ad%Creset %Cgreen(%an)%Creset %s' --date=short
 
