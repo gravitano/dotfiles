@@ -1,4 +1,5 @@
 export DOTFILES="$HOME/Code/Warsono/dotfiles"
+export COMPOSER_GLOBAL_BIN="$HOME/.config/composer/vendor/bin"
 
 # Plugins
 plugins=(git nvm node zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete)
@@ -26,4 +27,4 @@ alias reload="source ~/.zshrc"
 alias c="clear"
 
 # Path tambahan
-export PATH="$HOME/.local/bin:$DOTFILES/bin:$PATH"
+export PATH="$HOME/.local/bin:$DOTFILES/bin:$COMPOSER_GLOBAL_BIN:$PATH"
